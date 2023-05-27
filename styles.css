@@ -1,0 +1,326 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: black;
+    
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+}
+.logo>img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.subHeadings{
+    margin: 0px 40px;
+    display: flex;
+    width: 35%;
+    align-items: center;
+    justify-content: space-between;
+}
+.subHeadings>a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.content1{
+    width: 60%;
+}
+.content1>img{
+    width: 90%;
+}
+.homeImg>img{
+    width: 80%;
+}
+.content1>h1{
+    padding: 20px 0px 10px 0px;
+}
+.content1>p{
+    font-size: 1.5rem;
+    padding: 20px 100px 20px 0px;
+}
+.content1>button{
+    padding: 12px;
+    font-size: 1.5rem;
+    background-color:rgb(19, 112, 126);
+    color: white;
+    border: none;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+.home{
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(228, 235, 241);
+}
+.content2{
+    width: 40%;
+    height: 74vh;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(255, 255, 255);
+    align-items: center;
+    justify-content:top;
+    gap: 20px;
+    padding: 30px 50px;
+}
+.content2>p{
+    font-size: 1.7rem;
+    font-weight: 400;
+    padding: 10px;
+}
+.address{
+    height: 10vh;
+}
+.content2>input{
+    width: 70%;
+    padding: 10px;
+}
+.content2>button{
+    background-color: black;
+    padding: 10px;
+}
+.submit{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:  rgba(156, 178, 190, 0.164);
+}
+.contactus{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;  
+}
+.contact>table{
+    width: 90%;
+}
+.contact>div>p{
+    font-size: 2.2rem;
+    justify-content: center;
+    color: white;
+    font-weight: 400;
+    padding: 40px 0px 40px 0px; 
+}
+.contact>table,th,td{
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+.contact>tr,th,td{
+    padding: 30px;
+    text-align: left;
+}
+th{
+    font-size: 1.5rem;
+}
+tr,td{
+    font-size: 1.2rem;
+}
+tr:nth-child(even) {
+    background-color: #ceebf3ae;
+}
+.allimages{
+    background-color: rgb(92, 80, 80);
+}
+.subimages{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.image{
+    max-width: 20%;
+    height: auto;
+    padding-bottom: 50px;
+}
+.image img{
+    width: 100%;
+    height: 140px;
+}
+.image h2{
+    padding: 15px 0px 25px 0px;
+    color: white;
+    font-weight: 400;
+}
+.image p{
+    color: rgb(217, 210, 210);
+    font-weight: 200;
+    padding: 15px 0px 6px 0px;
+}
+.image a{
+    text-decoration: none;
+    color:rgb(105, 231, 212);
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutus>p{
+    font-size: 2.2rem;
+    color: rgb(10, 10, 10);
+    font-weight: 400;
+    padding: 40px 0px 40px 0px; 
+}
+.careers{
+    background-image: url(./assets/career3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(57, 52, 52);
+    background-blend-mode: multiply;
+    color: whitesmoke;
+}
+.careerSub1{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px 0px 30px ;
+    font-size: 2.3rem;
+    font-weight: 300;
+}
+.careerSub2{
+    display: flex;
+    justify-content: space-between;
+}
+.careerSub2>div>p{
+    width: 80%;
+    font-size: 2.5rem;
+    font-weight: 290;
+    padding: 50px 50px 70px 50px;
+}
+.careerSel{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px 50px 50px;
+    justify-content: center;
+    gap: 20px;
+}
+#dept,#location{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(188, 203, 198);
+    padding: 40px 0px;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width:575px){
+    *{
+        text-align: center;
+    }
+    .subHeadings{
+        width: 100%;
+    }
+    .home{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .content1{
+        width: 100%;
+    }
+    .content1>p{
+        padding: 15px;
+    }
+    .content2{
+        width: 100%;
+        height: auto;
+    }
+    .contact>tr,th,td{
+        padding: 20px;
+    }
+    .subimages{
+        flex-direction: column;
+    }
+    .image{
+        max-width: 100%;
+        height: auto;
+    }
+    .image img{
+        height: auto;
+    }
+    .careerSub2{
+        flex-direction: column;
+    }
+    .careerSub2>div>p{
+        width: auto;
+        padding: none;
+    }
+    .careerSel{
+        width: 80%;
+        margin: auto;
+        padding: 0px 50px 40px 50px;
+    }
+    #dept,#location{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .header{
+        flex-direction: column;
+    }
+    .subHeadings{
+       width: auto;
+       margin: 10px 60px;
+    }
+    .content2{
+        width: auto;
+        padding: 0px;
+    }
+    .content2>p{
+        font-size: 1.5rem;
+        padding: 20px 0px 0px 20px;
+    }
+    .subimages{
+        padding: 30px 0px;
+    }
+    .image{
+        max-width: 50%;
+        padding: 20px;
+    }
+    .careerSub1{
+        padding: 40px 0px 0px ;
+    }
+    .careerSub2>div>p{
+        width: auto;
+        font-size: 2rem;
+        padding: 30px;
+    }
+    .careerSel{
+        width: auto;
+        padding: 30px ;
+    }
+    #dept, #location{
+        font-size: 1.2rem;
+    }
+}
